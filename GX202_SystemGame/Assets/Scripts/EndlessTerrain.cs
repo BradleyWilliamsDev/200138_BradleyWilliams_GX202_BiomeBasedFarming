@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EndlessTerrain : MonoBehaviour
 {
-     public const float maxViewDist = 300;
+    public const float maxViewDist = 450;
     public Transform viewer;
 
     public static Vector2 viewerPos;
@@ -22,7 +22,7 @@ public class EndlessTerrain : MonoBehaviour
 
     private void Update()
     {
-        viewerPos = new Vector2 (viewer.position.x, viewer.position.z);
+        viewerPos = new Vector2(viewer.position.x, viewer.position.z);
         UpdateVisibleChunks();
     }
 
@@ -32,6 +32,8 @@ public class EndlessTerrain : MonoBehaviour
         {
             terrainChunksVisibleUpdate[i].SetVisible(false);
         }
+
+        terrainChunksVisibleUpdate.Clear();
 
 
         int currentChunkCoordX = Mathf.RoundToInt(viewerPos.x / chunkSize);
@@ -46,10 +48,15 @@ public class EndlessTerrain : MonoBehaviour
                 if (terrainChunkDictionary.ContainsKey(viewedChunkCoord))
                 {
                     terrainChunkDictionary[viewedChunkCoord].UpdateTerrainChunk();
+
+                    if (terrainChunkDictionary[viewedChunkCoord].IsVisible())
+                    {
+                        terrainChunksVisibleUpdate.Add(terrainChunkDictionary[viewedChunkCoord]);
+                    }
                 }
                 else
                 {
-                    terrainChunkDictionary.Add(viewedChunkCoord, new TerrainChunk(viewedChunkCoord, chunkSize));
+                    terrainChunkDictionary.Add(viewedChunkCoord, new TerrainChunk(viewedChunkCoord, chunkSize, transform));
                 }
             }
         }
@@ -61,28 +68,34 @@ public class EndlessTerrain : MonoBehaviour
         Vector2 position;
         Bounds bounds;
 
-        public TerrainChunk(Vector2 coord, int size)
+        public TerrainChunk(Vector2 coord, int size, Transform parent)
         {
-            bounds = new Bounds(position, Vector2.one * size);
             position = coord * size;
+            bounds = new Bounds(position, Vector2.one * size);
             Vector3 positionV3 = new Vector3(position.x, 0, position.y);
 
             meshObject = GameObject.CreatePrimitive(PrimitiveType.Plane);
             meshObject.transform.position = positionV3;
             meshObject.transform.localScale = Vector3.one * size / 10f;
+            meshObject.transform.parent = parent;
             SetVisible(false);
         }
 
         public void UpdateTerrainChunk()
         {
             float viewerDistFromEdge = Mathf.Sqrt(bounds.SqrDistance(viewerPos));
-            bool visible = viewerDistFromEdge >= maxViewDist;
+            bool visible = viewerDistFromEdge <= maxViewDist;
             SetVisible(visible);
         }
 
         public void SetVisible(bool visible)
         {
             meshObject.SetActive(visible);
+        }
+
+        public bool IsVisible()
+        {
+            return meshObject.activeSelf;
         }
     }
 }
