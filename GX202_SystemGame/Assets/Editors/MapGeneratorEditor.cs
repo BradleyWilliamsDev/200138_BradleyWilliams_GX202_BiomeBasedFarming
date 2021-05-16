@@ -14,13 +14,13 @@ public class NewBehaviourScript : Editor
         {
             if (mapGen.autoUpdate)
             {
-                mapGen.GenerateNoiseMap();
+                mapGen.DrawMapInEditor();
             }
         }
 
         if (GUILayout.Button("Generate"))
         {
-            mapGen.GenerateNoiseMap();
+            mapGen.DrawMapInEditor();
         }
     }
 }
