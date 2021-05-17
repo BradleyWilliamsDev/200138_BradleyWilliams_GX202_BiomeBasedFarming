@@ -93,16 +93,19 @@ public class EndlessTerrain : MonoBehaviour
             SetVisible(false);
 
             mapGenerator.RequestMapData(OnMapDataReceived);
+
         }
 
         void OnMapDataReceived(MapData mapData)
         {
             // Reason you dont just fetch the mesh data is so that when you calculate for LOD you do so only when needed
             mapGenerator.RequestMeshData(mapData, OnMeshDataReceived);
+            Debug.Log("Map Data Received");
         }
 
         void OnMeshDataReceived(MeshData meshData)
         {
+            Debug.Log("Received mesh filter");
             meshFilter.mesh = meshData.CreateMesh();
         }
 
