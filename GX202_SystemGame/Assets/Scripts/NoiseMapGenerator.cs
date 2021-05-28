@@ -16,7 +16,7 @@ public class NoiseMapGenerator : MonoBehaviour
 
     public enum DrawMode
     {
-        NoiseMap, colourMap, Mesh
+        NoiseMap, colourMap, Mesh, FalloffMap
     };
 
     public DrawMode drawMode;
@@ -37,14 +37,23 @@ public class NoiseMapGenerator : MonoBehaviour
     public int seed;
     public Vector2 offset;
 
+    public bool useFalloff;
+
     public AnimationCurve meshHeightCurve;
 
     public bool autoUpdate;
 
     public TerrainTypes[] region;
 
+    float[,] falloffMap;
+
     Queue<MapThreadInfo<MapData>> mapDataThreadInfoQueue = new Queue<MapThreadInfo<MapData>>();
     Queue<MapThreadInfo<MeshData>> meshDataThreadInfoQueue = new Queue<MapThreadInfo<MeshData>>();
+
+    private void Awake()
+    {
+        falloffMap = FallOffGeneration.GenerateFalloffMap(mapChunkSize);
+    }
 
     public void DrawMapInEditor()
     {
@@ -62,6 +71,10 @@ public class NoiseMapGenerator : MonoBehaviour
         else if (drawMode == DrawMode.Mesh)
         {
             display.DrawMesh(MeshGenerator.GenerateTerrainMesh(mapData.heightMap, meshHeightMultiplier, meshHeightCurve, previewEditorLOD), TextureGen.TextureFromColourMap(mapData.colourMap, mapChunkSize, mapChunkSize));
+        }
+        else if (drawMode == DrawMode.FalloffMap)
+        {
+            display.DrawTexture(TextureGen.TextureFromHeightMap(FallOffGeneration.GenerateFalloffMap(mapChunkSize)));
         }
     }
 
@@ -136,6 +149,10 @@ public class NoiseMapGenerator : MonoBehaviour
         {
             for (int y = 0; y < mapChunkSize; y++)
             {
+                if (useFalloff)
+                {
+                    noiseMap[x,y] =Mathf.Clamp01(noiseMap[x, y] - falloffMap [x, y]);
+                }
                 float currentHeight = noiseMap[x, y];
                 for (int i = 0; i < region.Length; i++)
                 {
@@ -164,6 +181,8 @@ public class NoiseMapGenerator : MonoBehaviour
         {
             octaves = 0;
         }
+
+        falloffMap = FallOffGeneration.GenerateFalloffMap(mapChunkSize);
     }
 
     struct MapThreadInfo<T>
