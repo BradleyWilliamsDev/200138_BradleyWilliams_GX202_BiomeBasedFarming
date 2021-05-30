@@ -39,11 +39,12 @@
      <Compile Include="Assets\Scripts\MeshGenerator.cs" />
      <Compile Include="Assets\Scripts\MapDisplay.cs" />
      <Compile Include="Assets\Scripts\EndlessTerrain.cs" />
+     <Compile Include="Assets\Scripts\FallOffGeneration.cs" />
      <Compile Include="Assets\Scripts\NoiseMapGenerator.cs" />
      <Compile Include="Assets\Scripts\TextureGen.cs" />
      <Compile Include="Assets\Editors\MapGeneratorEditor.cs" />
      <Compile Include="Assets\Scripts\Noise.cs" />
-     <Compile Include="Assets\Scripts\FallOffGeneration.cs" />
+     <Compile Include="Assets\Scripts\HideOnPlay.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:/UnityVersions/2020.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
