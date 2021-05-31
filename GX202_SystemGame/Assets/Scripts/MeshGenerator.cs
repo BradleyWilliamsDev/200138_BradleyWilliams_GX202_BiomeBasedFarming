@@ -17,7 +17,7 @@ public static class MeshGenerator
         float topLeftX = (meshSizeUnSimplified - 1) / -2f;
         float topLeftZ = (meshSizeUnSimplified - 1) / 2f;
 
-        
+
         int verticesPerLine = (meshSize - 1) / meshSimplificationIncrement + 1;
 
         MeshData meshData = new MeshData(verticesPerLine);
@@ -54,7 +54,7 @@ public static class MeshGenerator
                 float height = meshborderedSizeCurve.Evaluate(heighMap[x, y]) * borderedSizeMultiplier;
                 Vector3 vertexPosition = new Vector3(topLeftX + percent.x * meshSizeUnSimplified, height, topLeftZ - percent.y * meshSizeUnSimplified);
 
-                meshData.AddVertex(vertexPosition,percent,vertexIndex);
+                meshData.AddVertex(vertexPosition, percent, vertexIndex);
 
                 if (x < borderedSize - 1 && y < borderedSize - 1)
                 {
@@ -70,6 +70,8 @@ public static class MeshGenerator
             }
         }
 
+        meshData.BakedNormals ();
+
         return meshData;
     }
 }
@@ -80,6 +82,8 @@ public class MeshData
     int[] triangles;
 
     Vector2[] uvs;
+
+    Vector3[] bakedNormals;
 
     Vector3[] borderVertices;
     int[] borderTriangles;
@@ -189,6 +193,11 @@ public class MeshData
         return Vector3.Cross(sideAB, sideAC).normalized;
     }
 
+    public void BakedNormals()
+    {
+        bakedNormals = CalculateNormals();
+    }
+
     public Mesh CreateMesh()
     {
         Mesh mesh = new Mesh();
@@ -196,7 +205,7 @@ public class MeshData
         mesh.vertices = verticies;
         mesh.triangles = triangles;
         mesh.uv = uvs;
-        mesh.normals = CalculateNormals();
+        mesh.normals = bakedNormals;
         return mesh;
     }
 }
