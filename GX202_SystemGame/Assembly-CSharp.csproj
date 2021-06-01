@@ -41,10 +41,26 @@
      <Compile Include="Assets\Scripts\EndlessTerrain.cs" />
      <Compile Include="Assets\Scripts\FallOffGeneration.cs" />
      <Compile Include="Assets\Scripts\NoiseMapGenerator.cs" />
+     <Compile Include="Assets\Scripts\HideOnPlay.cs" />
      <Compile Include="Assets\Scripts\TextureGen.cs" />
      <Compile Include="Assets\Editors\MapGeneratorEditor.cs" />
      <Compile Include="Assets\Scripts\Noise.cs" />
-     <Compile Include="Assets\Scripts\HideOnPlay.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerToolBelt.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\CameraController3rdPerson.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\InputController.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\InteractionController.cs" />
+     <Compile Include="Assets\Scripts\ActionScripts\ToolHoe.cs" />
+     <Compile Include="Assets\Scripts\ActionScripts\ToolSeeds.cs" />
+     <Compile Include="Assets\Scripts\ActionScripts\ToolObject.cs" />
+     <Compile Include="Assets\Scripts\Interactables\InteractableSoil.cs" />
+     <Compile Include="Assets\Scripts\Interactables\InteractableLink.cs" />
+     <Compile Include="Assets\Scripts\Interactables\InteractableBase.cs" />
+     <Compile Include="Assets\Scripts\UI\UIProgressBar.cs" />
+     <Compile Include="Assets\Scripts\UI\UIHotbarTool.cs" />
+     <Compile Include="Assets\Scripts\Utility\ObjectPoolProgressBar.cs" />
+     <Compile Include="Assets\Scripts\Utility\ObjectPool.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:/UnityVersions/2020.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -638,6 +654,9 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>C:/Users/user/Documents/GitHub/200138_BradleyWilliams_GX202_BiomeBasedFarming/GX202_SystemGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+        <HintPath>C:/Users/user/Documents/GitHub/200138_BradleyWilliams_GX202_BiomeBasedFarming/GX202_SystemGame/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
