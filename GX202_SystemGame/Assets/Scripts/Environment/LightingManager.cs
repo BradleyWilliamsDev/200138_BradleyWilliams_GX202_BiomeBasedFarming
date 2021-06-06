@@ -11,6 +11,12 @@ public class LightingManager : MonoBehaviour
     // Variables
     [SerializeField, Range(0, 24)] private float timeOfDay;
 
+    public GameObject[] typesOfWeather;
+
+    private void Start() {
+        typesOfWeather[0].SetActive(false);
+    }
+
     private void Update() {
         if (preset == null)
         {
