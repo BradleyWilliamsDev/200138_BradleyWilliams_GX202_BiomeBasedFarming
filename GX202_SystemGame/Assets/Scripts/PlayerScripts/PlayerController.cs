@@ -89,6 +89,11 @@ public class PlayerController : MonoBehaviour
             targetMoveVelocity.y = rigidbody.velocity.y;
             rigidbody.velocity = targetMoveVelocity;
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     void LookUpdated(Vector2 lookVector)
