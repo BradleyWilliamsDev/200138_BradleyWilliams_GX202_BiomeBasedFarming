@@ -38,7 +38,7 @@ public class LightingManager : MonoBehaviour
             UpdateLighting(timeOfDay / 24f);
         }
 
-        modifier = Random.Range(0.0f, 2f);
+        modifier = Random.Range(0.0f, 1f);
 
         nextEventTime = Time.time + modifier;
 
