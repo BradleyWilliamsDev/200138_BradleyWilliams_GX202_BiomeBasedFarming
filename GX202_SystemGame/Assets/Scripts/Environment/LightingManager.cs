@@ -12,9 +12,13 @@ public class LightingManager : MonoBehaviour
     [SerializeField, Range(0, 24)] private float timeOfDay;
 
     public GameObject[] typesOfWeather;
+    [SerializeField] Transform player;
+
+    float nextEventTime,modifier;
 
     private void Start() {
         typesOfWeather[0].SetActive(false);
+        nextEventTime = 0.0f;
     }
 
     private void Update() {
@@ -32,6 +36,15 @@ public class LightingManager : MonoBehaviour
         else
         {
             UpdateLighting(timeOfDay / 24f);
+        }
+
+        modifier = Random.Range(0.0f, 2f);
+
+        nextEventTime = Time.time + modifier;
+
+        if (Time.time > nextEventTime)
+        {
+            typesOfWeather[0].SetActive(true);
         }
     }
 
