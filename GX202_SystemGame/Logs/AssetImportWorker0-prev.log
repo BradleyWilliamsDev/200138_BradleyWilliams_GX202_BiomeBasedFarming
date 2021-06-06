@@ -15,11 +15,11 @@ C:/Users/user/Documents/GitHub/200138_BradleyWilliams_GX202_BiomeBasedFarming/GX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49777
+58825
 Successfully changed project path to: C:/Users/user/Documents/GitHub/200138_BradleyWilliams_GX202_BiomeBasedFarming/GX202_SystemGame
 C:/Users/user/Documents/GitHub/200138_BradleyWilliams_GX202_BiomeBasedFarming/GX202_SystemGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 29.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path E:/UnityVersions/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -37,142 +37,887 @@ Initialize mono
 Mono path[0] = 'E:/UnityVersions/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityVersions/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/UnityVersions/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityVersions/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000660 seconds.
+Registered in 0.001916 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 29.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.446 seconds
+- Completed reload, in  0.963 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000473 seconds.
+Registered in 0.001789 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.729 seconds
+- Completed reload, in  0.894 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.7 MB.
-System memory in use after: 57.8 MB.
+Unloading 1587 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1568.
-Total: 1.814853 ms (FindLiveObjects: 0.124702 ms CreateObjectMapping: 0.034896 ms MarkObjects: 1.581614 ms  DeleteObjects: 0.072615 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2032.
+Total: 3.581477 ms (FindLiveObjects: 0.450571 ms CreateObjectMapping: 0.259669 ms MarkObjects: 2.711638 ms  DeleteObjects: 0.156520 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/EndlessTerrain.cs
-  artifactKey: Guid(bfdba29b84061fb4ea2e101844b89476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EndlessTerrain.cs using Guid(bfdba29b84061fb4ea2e101844b89476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0b691881aa3ea1781d7552d5b3aeb5') in 0.064573 seconds
-  Import took 0.066748 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec8774520aa899aeadb1d00fa046083') in 0.048375 seconds
+  Import took 0.051662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.773837 seconds.
+  path: Assets/Cartoon_Farm_Crops
+  artifactKey: Guid(e0acaa776060ca94e893874143e8a8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops using Guid(e0acaa776060ca94e893874143e8a8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c853c44df94533b54968ae727a30395b') in 0.002330 seconds
+  Import took 0.005177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001401 seconds.
+  path: Assets/Cartoon_Farm_Crops
+  artifactKey: Guid(e0acaa776060ca94e893874143e8a8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops using Guid(e0acaa776060ca94e893874143e8a8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c853c44df94533b54968ae727a30395b') in 0.001564 seconds
+  Import took 0.004510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.371362 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs
+  artifactKey: Guid(4b282f46fd391504d8c6ce4658b86d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs using Guid(4b282f46fd391504d8c6ce4658b86d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4d3d03377c2db7820612488cb080cd') in 0.002533 seconds
+  Import took 0.006226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.649769 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile
+  artifactKey: Guid(6681e082a16b2a6489222076731c0634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile using Guid(6681e082a16b2a6489222076731c0634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2551d941a545f775961a8e88c720df52') in 0.002235 seconds
+  Import took 0.005135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063712 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Carrot_Fruit.prefab
+  artifactKey: Guid(5ccf902a46d565441be630bd717cab9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Carrot_Fruit.prefab using Guid(5ccf902a46d565441be630bd717cab9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e60e9567ba99995cadc69cd1241b90') in 0.102637 seconds
+  Import took 0.105352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Tomato_Plant.prefab
+  artifactKey: Guid(1cee73a22ae3bff49a094a5883eabd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Tomato_Plant.prefab using Guid(1cee73a22ae3bff49a094a5883eabd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86bc53bf8ff60a05a9b8e02a4a7b1c1') in 0.010850 seconds
+  Import took 0.013617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Turnip_Fruit.prefab
+  artifactKey: Guid(becd827951d0b4046808ba97418ecf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Turnip_Fruit.prefab using Guid(becd827951d0b4046808ba97418ecf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fdaff23f9b8a559353d535211fa30e') in 0.011076 seconds
+  Import took 0.014099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Turnip_Plant.prefab
+  artifactKey: Guid(61b0f6b970bd324438f2ffc56c6ddf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Turnip_Plant.prefab using Guid(61b0f6b970bd324438f2ffc56c6ddf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01508bdf81d3e978e0ccf9c4b2e86746') in 0.008918 seconds
+  Import took 0.011495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Eggplant_Fruit.prefab
+  artifactKey: Guid(f3a9c7ecfacfb2f4db788d6a3acdbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Eggplant_Fruit.prefab using Guid(f3a9c7ecfacfb2f4db788d6a3acdbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24728f8721c6b1d097ea40b99de855a') in 0.007534 seconds
+  Import took 0.009812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Carrot_Plant.prefab
+  artifactKey: Guid(20a97bb13c3ef18478cf9c86535b1e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Carrot_Plant.prefab using Guid(20a97bb13c3ef18478cf9c86535b1e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0311cb37b00366b29990a1766b895a1') in 0.010196 seconds
+  Import took 0.013080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Eggplant_Plant.prefab
+  artifactKey: Guid(fa6407b600577284bb8840b157c7d1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Eggplant_Plant.prefab using Guid(fa6407b600577284bb8840b157c7d1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22edfbede3ee1d894567131cb5a4ae4e') in 0.009428 seconds
+  Import took 0.012641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Pumpkin_Fruit.prefab
+  artifactKey: Guid(c2a2644fedfa0a849bbc9b40600c5c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Pumpkin_Fruit.prefab using Guid(c2a2644fedfa0a849bbc9b40600c5c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a65990b9248c8bc4f15805ec66e3f0') in 0.008100 seconds
+  Import took 0.010867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Corn_Plant.prefab
+  artifactKey: Guid(a97ffd75102541b46b48cffc80ef3da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Corn_Plant.prefab using Guid(a97ffd75102541b46b48cffc80ef3da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e50e4272beac382f1d7864602032b3e') in 0.009868 seconds
+  Import took 0.012811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Dirt_Pile.prefab
+  artifactKey: Guid(8dfbe94bc89610d489620aca436a33ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Dirt_Pile.prefab using Guid(8dfbe94bc89610d489620aca436a33ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf00d33e04dc50ae31ca6f6f20fbd0c4') in 0.009194 seconds
+  Import took 0.012064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Corn_Fruit.prefab
+  artifactKey: Guid(525cdbe33e2709049b014f3e3748e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Corn_Fruit.prefab using Guid(525cdbe33e2709049b014f3e3748e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2ec3270755eeb83d8ef62834070b48') in 0.010599 seconds
+  Import took 0.013269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Pumpkin_Plant.prefab
+  artifactKey: Guid(85cae589c09bb234d907a2ea8d0bac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Pumpkin_Plant.prefab using Guid(85cae589c09bb234d907a2ea8d0bac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75bfe27858b24b81584ce196be6fe64') in 0.009013 seconds
+  Import took 0.011827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Corn_Fruit.prefab
+  artifactKey: Guid(525cdbe33e2709049b014f3e3748e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Corn_Fruit.prefab using Guid(525cdbe33e2709049b014f3e3748e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2ec3270755eeb83d8ef62834070b48') in 0.008536 seconds
+  Import took 0.011966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Pumpkin_Plant.prefab
+  artifactKey: Guid(85cae589c09bb234d907a2ea8d0bac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Pumpkin_Plant.prefab using Guid(85cae589c09bb234d907a2ea8d0bac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75bfe27858b24b81584ce196be6fe64') in 0.007728 seconds
+  Import took 0.010449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Tomato_Fruit.prefab
+  artifactKey: Guid(054e8622a5bae1644b0baa6708dbbc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Tomato_Fruit.prefab using Guid(054e8622a5bae1644b0baa6708dbbc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900a4e6f820530e690f01d608a84cdf2') in 0.008971 seconds
+  Import took 0.011579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.627861 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard
+  artifactKey: Guid(0f43114e13e8f10469e2aa034cbd874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard using Guid(0f43114e13e8f10469e2aa034cbd874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a3d3d51e4d2544bbfe337c771bc9ae') in 0.002264 seconds
+  Import took 0.005258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051674 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Fruit.prefab
+  artifactKey: Guid(2cf13a738fc434c46bda5ebf7ca44756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Fruit.prefab using Guid(2cf13a738fc434c46bda5ebf7ca44756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d773547118ed388ddf235d4e096a2eb') in 0.009952 seconds
+  Import took 0.013063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Dirt_Pile.prefab
+  artifactKey: Guid(c26cacf51e485c54b95fdbf9ad976ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Dirt_Pile.prefab using Guid(c26cacf51e485c54b95fdbf9ad976ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab17d3a2f4547115cc6b8993f630343') in 0.010345 seconds
+  Import took 0.013871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Plant.prefab
+  artifactKey: Guid(30319199574ca3644bf3898bb5cac486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Plant.prefab using Guid(30319199574ca3644bf3898bb5cac486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679f18bf1fe805e44038a59f2cee80b8') in 0.011497 seconds
+  Import took 0.015958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Fruit.prefab
+  artifactKey: Guid(92417dd2b68fd6147a711fb2af4275b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Fruit.prefab using Guid(92417dd2b68fd6147a711fb2af4275b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d82f6c9bf0a616efa01079f5b71a4c') in 0.012267 seconds
+  Import took 0.015898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Plant.prefab
+  artifactKey: Guid(97c7589824dbbb24cbc2b95a9345ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Plant.prefab using Guid(97c7589824dbbb24cbc2b95a9345ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1307ec16b85b8f7f64cf7d66c2488ae3') in 0.012098 seconds
+  Import took 0.015677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Plant.prefab
+  artifactKey: Guid(56b36da289d9a9e4cb37c5f588e23748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Plant.prefab using Guid(56b36da289d9a9e4cb37c5f588e23748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9998c948399ff4956533009cdcf4dc77') in 0.011636 seconds
+  Import took 0.015037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Plant.prefab
+  artifactKey: Guid(1c8776a0b36cd9a4f813bf0d2d59d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Plant.prefab using Guid(1c8776a0b36cd9a4f813bf0d2d59d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b67bd999d4b5b719116f3e77fdab4ab') in 0.011399 seconds
+  Import took 0.014385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Fruit.prefab
+  artifactKey: Guid(0adfa404918648e42a1fb073ef9010d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Fruit.prefab using Guid(0adfa404918648e42a1fb073ef9010d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a7b6f5dfa29df3f8d8cafe85a44198') in 0.012474 seconds
+  Import took 0.015162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Fruit.prefab
+  artifactKey: Guid(ad3b2f45225bb0c4f8f80eacd5111af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Fruit.prefab using Guid(ad3b2f45225bb0c4f8f80eacd5111af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e5ae5ab608429a1987055201c60edd') in 0.010351 seconds
+  Import took 0.013146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Fruit.prefab
+  artifactKey: Guid(9c0476b14d8c518499bcc0adff155ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Fruit.prefab using Guid(9c0476b14d8c518499bcc0adff155ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f4e7a04c491c44d6d007814ead30d6') in 0.010172 seconds
+  Import took 0.013202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Plant.prefab
+  artifactKey: Guid(f0666abddd74e5644ac4cf977d74e5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Plant.prefab using Guid(f0666abddd74e5644ac4cf977d74e5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b01ec616937146060fd66884520880d') in 0.012094 seconds
+  Import took 0.014935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Plant.prefab
+  artifactKey: Guid(323e5d46aea633c42bfadb66b36971d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Plant.prefab using Guid(323e5d46aea633c42bfadb66b36971d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c2d532dc369c825cf0b0a4673ad7fb') in 0.011493 seconds
+  Import took 0.015188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Fruit.prefab
+  artifactKey: Guid(8490d29919917de4ca0c5297d93090d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Fruit.prefab using Guid(8490d29919917de4ca0c5297d93090d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b728f0ced3ec0a218a3d03c63dc276d') in 0.011469 seconds
+  Import took 0.015062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.988328 seconds.
+  path: Assets/ScriptableObjects/DefaultPreset.asset
+  artifactKey: Guid(1c95e0ac1b9156c4d8337160fe1035d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/DefaultPreset.asset using Guid(1c95e0ac1b9156c4d8337160fe1035d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09c2d25c27a6e78fa8589ecffba911b') in 0.002830 seconds
+  Import took 0.005656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.976610 seconds.
+  path: Assets/Scripts/ActionScripts/ToolSeeds.cs
+  artifactKey: Guid(9c446d513d5f55e40a67b5fc0f7c2c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActionScripts/ToolSeeds.cs using Guid(9c446d513d5f55e40a67b5fc0f7c2c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db1b60bb0bc1061304fa64e24a88fe5') in 0.012884 seconds
+  Import took 0.015644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.524143 seconds.
+  path: Assets/Scripts/ActionScripts/ToolHoe.cs
+  artifactKey: Guid(c4909daac7f09034da705ec91020a50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActionScripts/ToolHoe.cs using Guid(c4909daac7f09034da705ec91020a50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55508fcb051a03ba5f35566964ff6f0') in 0.004731 seconds
+  Import took 0.007717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000920 seconds.
+  path: Assets/Scripts/ActionScripts/ToolHoe.cs
+  artifactKey: Guid(c4909daac7f09034da705ec91020a50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActionScripts/ToolHoe.cs using Guid(c4909daac7f09034da705ec91020a50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55508fcb051a03ba5f35566964ff6f0') in 0.001605 seconds
+  Import took 0.004349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.681753 seconds.
+  path: Assets/Scripts/ActionScripts/ToolObject.cs
+  artifactKey: Guid(acafcddd082754845bf2ec76a5a15b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActionScripts/ToolObject.cs using Guid(acafcddd082754845bf2ec76a5a15b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2abb4118a53e051c2057e231162777') in 0.002423 seconds
+  Import took 0.005404 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000494 seconds.
+Registered in 0.000659 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.681 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.7 MB.
-System memory in use after: 57.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1571.
-Total: 1.506690 ms (FindLiveObjects: 0.159598 ms CreateObjectMapping: 0.048495 ms MarkObjects: 1.230087 ms  DeleteObjects: 0.067483 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 732.610317 seconds.
-  path: Assets/Scripts/MeshGenerator.cs
-  artifactKey: Guid(1b126736c6f7a4b4986bbfb371d756b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MeshGenerator.cs using Guid(1b126736c6f7a4b4986bbfb371d756b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333a3a540eb73a30842fff92727b5570') in 0.004981 seconds
-  Import took 0.007116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003098 seconds.
-  path: Assets/Scripts/MeshGenerator.cs
-  artifactKey: Guid(1b126736c6f7a4b4986bbfb371d756b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MeshGenerator.cs using Guid(1b126736c6f7a4b4986bbfb371d756b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333a3a540eb73a30842fff92727b5570') in 0.001552 seconds
-  Import took 0.003712 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000569 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.666 seconds
+- Completed reload, in  0.809 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.7 MB.
-System memory in use after: 57.8 MB.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.7 MB.
+System memory in use after: 76.8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1574.
-Total: 1.815623 ms (FindLiveObjects: 0.138301 ms CreateObjectMapping: 0.031817 ms MarkObjects: 1.584693 ms  DeleteObjects: 0.060042 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 220.246239 seconds.
-  path: Assets/Scripts/MeshGenerator.cs
-  artifactKey: Guid(1b126736c6f7a4b4986bbfb371d756b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MeshGenerator.cs using Guid(1b126736c6f7a4b4986bbfb371d756b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12886e8170e2db1c2eafbf73855c5709') in 0.005496 seconds
-  Import took 0.007520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1799.621857 seconds.
-  path: Assets/Scripts/MeshGenerator.cs
-  artifactKey: Guid(1b126736c6f7a4b4986bbfb371d756b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MeshGenerator.cs using Guid(1b126736c6f7a4b4986bbfb371d756b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f1e40b08a673a7f3856684283fe936') in 0.001820 seconds
-  Import took 0.003639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003712 seconds.
-  path: Assets/Scripts/MeshGenerator.cs
-  artifactKey: Guid(1b126736c6f7a4b4986bbfb371d756b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MeshGenerator.cs using Guid(1b126736c6f7a4b4986bbfb371d756b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f1e40b08a673a7f3856684283fe936') in 0.001716 seconds
-  Import took 0.003703 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2042.
+Total: 2.276719 ms (FindLiveObjects: 0.238628 ms CreateObjectMapping: 0.157033 ms MarkObjects: 1.803824 ms  DeleteObjects: 0.076464 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000416 seconds.
+Registered in 0.000534 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.760 seconds
+- Completed reload, in  0.696 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.8 MB.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.7 MB.
+System memory in use after: 76.8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1577.
-Total: 1.504637 ms (FindLiveObjects: 0.121110 ms CreateObjectMapping: 0.034126 ms MarkObjects: 1.276530 ms  DeleteObjects: 0.072101 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2045.
+Total: 2.313924 ms (FindLiveObjects: 0.189876 ms CreateObjectMapping: 0.120597 ms MarkObjects: 1.916980 ms  DeleteObjects: 0.085701 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 364.677434 seconds.
+  path: Assets/ScriptableObjects/ToolHoe.asset
+  artifactKey: Guid(744f8cbec55466f42a202bb3e5e30a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/ToolHoe.asset using Guid(744f8cbec55466f42a202bb3e5e30a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a3a90afff9a3dc32a570735a7ae84b') in 0.015593 seconds
+  Import took 0.018558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.240373 seconds.
+  path: Assets/Prefab/HotbarTool.prefab
+  artifactKey: Guid(c51d4b2c33818f949a8661fc60cc7384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HotbarTool.prefab using Guid(c51d4b2c33818f949a8661fc60cc7384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63901f95c66c884b95b5582e2aabff8b') in 0.028120 seconds
+  Import took 0.031638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.263271 seconds.
+  path: Assets/Prefab/UIProgressBar.prefab
+  artifactKey: Guid(0ac7ea7d95654b549adf2a02486484fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UIProgressBar.prefab using Guid(0ac7ea7d95654b549adf2a02486484fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c4d196b762ef23c2960c335eb3ed46') in 0.004133 seconds
+  Import took 0.008415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.374343 seconds.
+  path: Assets/Scripts/NoiseMapGenerator.cs
+  artifactKey: Guid(ab11b331a6374a843811732063945de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NoiseMapGenerator.cs using Guid(ab11b331a6374a843811732063945de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711725064082a63d7e58d0aab3bf06dc') in 0.004373 seconds
+  Import took 0.007434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.289098 seconds.
+  path: Assets/Scripts/Noise.cs
+  artifactKey: Guid(26705d0049e4c1c4098c868859cbafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Noise.cs using Guid(26705d0049e4c1c4098c868859cbafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579e2145e1351555ffde20f9344124c6') in 0.003153 seconds
+  Import took 0.006599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369899 seconds.
+  path: Assets/Scripts/EndlessTerrain.cs
+  artifactKey: Guid(bfdba29b84061fb4ea2e101844b89476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTerrain.cs using Guid(bfdba29b84061fb4ea2e101844b89476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec9b7f0e89ccd4f8639c71046388f92') in 0.002611 seconds
+  Import took 0.005625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/Scripts/EndlessTerrain.cs
+  artifactKey: Guid(bfdba29b84061fb4ea2e101844b89476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTerrain.cs using Guid(bfdba29b84061fb4ea2e101844b89476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec9b7f0e89ccd4f8639c71046388f92') in 0.002567 seconds
+  Import took 0.005883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.730780 seconds.
+  path: Assets/Scripts/FallOffGeneration.cs
+  artifactKey: Guid(55d6d07977cf9e44fa57cc94ffe3e3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FallOffGeneration.cs using Guid(55d6d07977cf9e44fa57cc94ffe3e3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22be40a36dbac7ec84b3037a95e0d452') in 0.003078 seconds
+  Import took 0.006132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.308184 seconds.
+  path: Assets/Scripts/UI/UIHotbarTool.cs
+  artifactKey: Guid(cdc800c98959f7e47ba382962b03de43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIHotbarTool.cs using Guid(cdc800c98959f7e47ba382962b03de43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e894603a0ff4c75da6697261aa176c') in 0.002674 seconds
+  Import took 0.005853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.678907 seconds.
+  path: Assets/Scripts/UI/UIProgressBar.cs
+  artifactKey: Guid(f46d6b9c4e045cd4c88774a0ef988aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIProgressBar.cs using Guid(f46d6b9c4e045cd4c88774a0ef988aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f459b7e848bb0f81a16805b0a27e70') in 0.002149 seconds
+  Import took 0.005031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.871257 seconds.
+  path: Assets/Prefab/HotbarTool.prefab
+  artifactKey: Guid(c51d4b2c33818f949a8661fc60cc7384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HotbarTool.prefab using Guid(c51d4b2c33818f949a8661fc60cc7384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7962f81576848c401a7e11340a834d') in 0.004934 seconds
+  Import took 0.007939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 381.203803 seconds.
+  path: Assets/Prefab/UIProgressBar.prefab
+  artifactKey: Guid(0ac7ea7d95654b549adf2a02486484fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UIProgressBar.prefab using Guid(0ac7ea7d95654b549adf2a02486484fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6859c645340ec82332596b9cf0b9bb') in 0.003956 seconds
+  Import took 0.006628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.263543 seconds.
+  path: Assets/Prefab/HUD.prefab
+  artifactKey: Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HUD.prefab using Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0dd132107ed8ea208c8807aa205a56') in 0.007619 seconds
+  Import took 0.011087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003483 seconds.
+  path: Assets/Prefab/HUD.prefab
+  artifactKey: Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HUD.prefab using Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0dd132107ed8ea208c8807aa205a56') in 0.003509 seconds
+  Import took 0.006745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.753168 seconds.
+  path: Assets/Prefab/UIProgressBar.prefab
+  artifactKey: Guid(0ac7ea7d95654b549adf2a02486484fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UIProgressBar.prefab using Guid(0ac7ea7d95654b549adf2a02486484fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26e31eef6775364fd70afd2b4eadfe8') in 0.006055 seconds
+  Import took 0.010338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.604069 seconds.
+  path: Assets/Prefab/Hoe.prefab
+  artifactKey: Guid(bab4453124923714e938e500466682eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Hoe.prefab using Guid(bab4453124923714e938e500466682eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5012688394dbaf7fb81b0cdd37fdc851') in 0.004627 seconds
+  Import took 0.008071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.532584 seconds.
+  path: Assets/Prefab/HUD.prefab
+  artifactKey: Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HUD.prefab using Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18546f87020b5ff6c53d27d84d82a08d') in 0.003680 seconds
+  Import took 0.006839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.598775 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Carrot_Fruit.mat
+  artifactKey: Guid(89de6558677c5e641bb66722cb40672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Carrot_Fruit.mat using Guid(89de6558677c5e641bb66722cb40672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb859148cd4a80b7c682ff3ccba0001') in 0.048454 seconds
+  Import took 0.051749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Carrot_Plant.mat
+  artifactKey: Guid(12cb46c4f90417445acbbf4abb87381f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Carrot_Plant.mat using Guid(12cb46c4f90417445acbbf4abb87381f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa005ed1bab5b7206139e49ac5e520b') in 0.010807 seconds
+  Import took 0.014481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Carrot_Fruit.mat
+  artifactKey: Guid(89de6558677c5e641bb66722cb40672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Carrot_Fruit.mat using Guid(89de6558677c5e641bb66722cb40672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb859148cd4a80b7c682ff3ccba0001') in 0.009598 seconds
+  Import took 0.012778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops_Mobile.fbx
+  artifactKey: Guid(fbd33e75d8d4bf9479c9cb59e83a9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops_Mobile.fbx using Guid(fbd33e75d8d4bf9479c9cb59e83a9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad88e6ac163971b4feecc887cf695f27') in 0.169139 seconds
+  Import took 0.172468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops.fbx
+  artifactKey: Guid(b69b26c8b73b8bd49bf243bbe541a2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops.fbx using Guid(b69b26c8b73b8bd49bf243bbe541a2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b38f49dea8eb941c9b921f905089304') in 0.108336 seconds
+  Import took 0.112478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops_Mobile.fbx
+  artifactKey: Guid(fbd33e75d8d4bf9479c9cb59e83a9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops_Mobile.fbx using Guid(fbd33e75d8d4bf9479c9cb59e83a9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad88e6ac163971b4feecc887cf695f27') in 0.104161 seconds
+  Import took 0.107366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops.fbx
+  artifactKey: Guid(b69b26c8b73b8bd49bf243bbe541a2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops.fbx using Guid(b69b26c8b73b8bd49bf243bbe541a2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b38f49dea8eb941c9b921f905089304') in 0.114080 seconds
+  Import took 0.117203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.284131 seconds.
+  path: Assets/Prefab/HUD.prefab
+  artifactKey: Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HUD.prefab using Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03807d97a357270b9b9f42c4cf1211b6') in 0.004115 seconds
+  Import took 0.007184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.090765 seconds.
+  path: Assets/Prefab/Seeds.prefab
+  artifactKey: Guid(4f5abf897cd26694984afb1508557712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Seeds.prefab using Guid(4f5abf897cd26694984afb1508557712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af5f4eacec4967bc75106879dae28e8') in 0.007876 seconds
+  Import took 0.010957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002957 seconds.
+  path: Assets/Prefab/Seeds.prefab
+  artifactKey: Guid(4f5abf897cd26694984afb1508557712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Seeds.prefab using Guid(4f5abf897cd26694984afb1508557712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af5f4eacec4967bc75106879dae28e8') in 0.003882 seconds
+  Import took 0.007024 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.3 MB.
+System memory in use after: 77.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2087.
+Total: 2.026801 ms (FindLiveObjects: 0.187310 ms CreateObjectMapping: 0.099557 ms MarkObjects: 1.689386 ms  DeleteObjects: 0.049778 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 182.871755 seconds.
+  path: Assets/Scripts/Tools/OrientToSurface.cs
+  artifactKey: Guid(1fc89284ad84b2a48b3b318c95e3435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tools/OrientToSurface.cs using Guid(1fc89284ad84b2a48b3b318c95e3435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a66e0eefb3cac7ef57e688883a54e7') in 0.006237 seconds
+  Import took 0.009733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.723141 seconds.
+  path: Assets/Icons
+  artifactKey: Guid(0937eae6b78f029498505c50f6084a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons using Guid(0937eae6b78f029498505c50f6084a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf036fa6a901b060098ed11e5344dd77') in 0.002529 seconds
+  Import took 0.005773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.820026 seconds.
+  path: Assets/Icons/HoeIcon.psd
+  artifactKey: Guid(ad6fd83a6e386ec4787f6d7be5aec047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/HoeIcon.psd using Guid(ad6fd83a6e386ec4787f6d7be5aec047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b67eca36c707b1e3c19d44a50d0ed3') in 0.035919 seconds
+  Import took 0.038695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.847987 seconds.
+  path: Assets/Icons/SeedsIcon.psd
+  artifactKey: Guid(4f715780601589847bbca36ad320bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/SeedsIcon.psd using Guid(4f715780601589847bbca36ad320bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a3d45d2f5c5db8cd3994e596daa11c') in 0.013104 seconds
+  Import took 0.016045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.964556 seconds.
+  path: Assets/Icons/SeedsIcon.psd
+  artifactKey: Guid(4f715780601589847bbca36ad320bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/SeedsIcon.psd using Guid(4f715780601589847bbca36ad320bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2b51473e6fdfc5f854e173b5544dd3') in 0.031833 seconds
+  Import took 0.035344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.081668 seconds.
+  path: Assets/Icons/HoeIcon.psd
+  artifactKey: Guid(ad6fd83a6e386ec4787f6d7be5aec047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/HoeIcon.psd using Guid(ad6fd83a6e386ec4787f6d7be5aec047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9321a20551bbc787d870359606837aa3') in 0.014535 seconds
+  Import took 0.018188 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000543 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.734 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1582 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.3 MB.
+System memory in use after: 77.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2095.
+Total: 2.318030 ms (FindLiveObjects: 0.230931 ms CreateObjectMapping: 0.135223 ms MarkObjects: 1.878749 ms  DeleteObjects: 0.072615 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.156616 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Atlas.png
+  artifactKey: Guid(750c26770681cd64c9b06c08cb6288f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Atlas.png using Guid(750c26770681cd64c9b06c08cb6288f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93a5570187ef69d01603d409ddd8817') in 0.036548 seconds
+  Import took 0.039959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Tomato_Fruit_Albedo.png
+  artifactKey: Guid(024dbba493f6a1941a374b583be3e0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Tomato_Fruit_Albedo.png using Guid(024dbba493f6a1941a374b583be3e0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e211e15635cc70420b801821a99ae9') in 0.010693 seconds
+  Import took 0.013483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Eggplant_Plant_Albedo.png
+  artifactKey: Guid(84caa95a9936af24ab0e8f10de648d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Eggplant_Plant_Albedo.png using Guid(84caa95a9936af24ab0e8f10de648d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969aba0ad3d1d240260389f47f78e68f') in 0.010868 seconds
+  Import took 0.014023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Pumpkin_Fruit_Albedo.png
+  artifactKey: Guid(d429ce7c7f2ae9d41a0199b013170f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Pumpkin_Fruit_Albedo.png using Guid(d429ce7c7f2ae9d41a0199b013170f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ce11b5007c046deca7780423a44b01') in 0.009317 seconds
+  Import took 0.012331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Corn_Fruit_Albedo.png
+  artifactKey: Guid(62ac9907684a4fd44955a96cf3281f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Corn_Fruit_Albedo.png using Guid(62ac9907684a4fd44955a96cf3281f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491606b3f7955b39bad28bb09bff6387') in 0.013417 seconds
+  Import took 0.016881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Carrot_Fruit_Albedo.png
+  artifactKey: Guid(37bcc112bafec624ebd7cf80a902e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Carrot_Fruit_Albedo.png using Guid(37bcc112bafec624ebd7cf80a902e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e21b95f0ccaaca74308b272fc39b755') in 0.009549 seconds
+  Import took 0.013038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Corn_Plant.mat
+  artifactKey: Guid(a46349869de82824ba02d48aa61e68f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Corn_Plant.mat using Guid(a46349869de82824ba02d48aa61e68f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d4269650785b49270e66212356d797') in 0.034950 seconds
+  Import took 0.037832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Turnip_Fruit_Albedo.png
+  artifactKey: Guid(1560766b06180624da2d6c0b3ca97e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Turnip_Fruit_Albedo.png using Guid(1560766b06180624da2d6c0b3ca97e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd516df6bcb97bb32094c7efca339f870') in 0.008339 seconds
+  Import took 0.011203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Eggplant_Fruit_Albedo.png
+  artifactKey: Guid(89277f3b049847d4196a358cd9e09846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Eggplant_Fruit_Albedo.png using Guid(89277f3b049847d4196a358cd9e09846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678aa1ef2b78e38b0e89af84f9636429') in 0.009369 seconds
+  Import took 0.012840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Pumpkin_Plant_Albedo.png
+  artifactKey: Guid(ef0049d0331021e44a2dc3d81f0c4d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Pumpkin_Plant_Albedo.png using Guid(ef0049d0331021e44a2dc3d81f0c4d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5618c7a560e01fe23d1ede22a411d2b') in 0.009178 seconds
+  Import took 0.012703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Dirt_Pile_Albedo.png
+  artifactKey: Guid(47e0b11020ba5f74a930558f91002405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Dirt_Pile_Albedo.png using Guid(47e0b11020ba5f74a930558f91002405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db9414bbe739f04e6f6eb55fb94608c') in 0.009639 seconds
+  Import took 0.012699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Eggplant_Plant.mat
+  artifactKey: Guid(3ab8b27d5c162cf48b0c8ad6ed2e1496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Eggplant_Plant.mat using Guid(3ab8b27d5c162cf48b0c8ad6ed2e1496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61bcde6abc514abb337d4ced1e8535d') in 0.010857 seconds
+  Import took 0.014450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Eggplant_Fruit.mat
+  artifactKey: Guid(84069b5b67b23e24b85eac888c3f5bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Eggplant_Fruit.mat using Guid(84069b5b67b23e24b85eac888c3f5bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f41b9c10977986133e06d5eaab358b') in 0.011791 seconds
+  Import took 0.015389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Corn_Fruit.mat
+  artifactKey: Guid(bd3ac3aaa239ebf4396eb261af13874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Corn_Fruit.mat using Guid(bd3ac3aaa239ebf4396eb261af13874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75320623e0e42a6f0175122763058b6e') in 0.010995 seconds
+  Import took 0.014145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Carrot_Plant_Albedo.png
+  artifactKey: Guid(f8f5c18ae32079744ba7b6cd6e40585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Carrot_Plant_Albedo.png using Guid(f8f5c18ae32079744ba7b6cd6e40585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abee1c1213a3178f21cca04460c165') in 0.009499 seconds
+  Import took 0.013081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Turnip_Plant_Albedo.png
+  artifactKey: Guid(7f86a0a19b0de644098617b58fbf1aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Turnip_Plant_Albedo.png using Guid(7f86a0a19b0de644098617b58fbf1aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c813b2ec3fe5eb3696207f493af97b7a') in 0.012004 seconds
+  Import took 0.015709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Corn_Plant_Albedo.png
+  artifactKey: Guid(5e330321bb91b424996cc8a57f290ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Corn_Plant_Albedo.png using Guid(5e330321bb91b424996cc8a57f290ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52077f5e96d1e0daee61caa1c34a6e5c') in 0.009785 seconds
+  Import took 0.013556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Tomato_Plant_Albedo.png
+  artifactKey: Guid(bcb1a13a0db77a644a2ae5cc6a68f643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Textures/Cartoon_Farm_Crops_Tomato_Plant_Albedo.png using Guid(bcb1a13a0db77a644a2ae5cc6a68f643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaee055348ecdaae460d3592d183a11c') in 0.010166 seconds
+  Import took 0.013688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Cartoon_Farm_Crops_Mobiles.mat
+  artifactKey: Guid(29a286d2dc90be241a18e462c6b29a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Cartoon_Farm_Crops_Mobiles.mat using Guid(29a286d2dc90be241a18e462c6b29a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873c8de3ea1ce1e684df8f67e026a649') in 0.012314 seconds
+  Import took 0.015412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035662 seconds.
+  path: Assets/Prefab/HUD.prefab
+  artifactKey: Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HUD.prefab using Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5d2199dcbcf249ac04293ef47946f0') in 0.026614 seconds
+  Import took 0.029792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Prefab/HUD.prefab
+  artifactKey: Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HUD.prefab using Guid(9638bd91101c7f44da0ba87884af5869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5d2199dcbcf249ac04293ef47946f0') in 0.005586 seconds
+  Import took 0.008946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.347131 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Dirt_Pile.mat
+  artifactKey: Guid(1b6ad9e6ace69c2448dda1ea645d4556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Dirt_Pile.mat using Guid(1b6ad9e6ace69c2448dda1ea645d4556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72fb3a7dc510d33ee6952f3b72b0041') in 0.011238 seconds
+  Import took 0.014723 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1582 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.4 MB.
+System memory in use after: 77.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2099.
+Total: 2.511755 ms (FindLiveObjects: 0.280196 ms CreateObjectMapping: 0.118031 ms MarkObjects: 2.028340 ms  DeleteObjects: 0.084418 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

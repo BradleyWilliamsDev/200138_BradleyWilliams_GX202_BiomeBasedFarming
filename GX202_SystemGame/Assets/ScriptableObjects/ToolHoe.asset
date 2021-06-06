@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 8
   rangeSqd: 64
-  interactionType: 0
-  dirtPrefab: {fileID: 0}
+  interactionType: 2
+  dirtPrefab: {fileID: 1000011580534764, guid: c26cacf51e485c54b95fdbf9ad976ddf, type: 3}
   duration: 2

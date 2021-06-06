@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ToolSeeds
   m_EditorClassIdentifier: 
   range: 2
-  rangeSqd: 0
-  interactionType: 0
-  seedlingPrefab: {fileID: 0}
+  rangeSqd: 4
+  interactionType: 2
+  seedlingPrefab: {fileID: 1000013410243764, guid: 56b36da289d9a9e4cb37c5f588e23748, type: 3}
