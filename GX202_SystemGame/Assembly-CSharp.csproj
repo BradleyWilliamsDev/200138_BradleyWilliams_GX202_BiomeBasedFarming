@@ -68,7 +68,8 @@
      <Compile Include="Assets\Scripts\Noise.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\HungerSystem.cs" />
      <Compile Include="Assets\Scripts\UI\UIHungerBar.cs" />
-     <Compile Include="Assets\Scripts\SpawnFood.cs" />
+     <Compile Include="Assets\Scripts\Hunger\FoodIncreaseHunger.cs" />
+     <Compile Include="Assets\Scripts\Hunger\SpawnFood.cs" />
      <None Include="Assets\Cartoon_Farm_Crops\README.txt" />
     <Reference Include="UnityEngine">
         <HintPath>E:/UnityVersions/2020.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
