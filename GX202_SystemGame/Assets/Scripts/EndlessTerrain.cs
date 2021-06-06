@@ -99,15 +99,29 @@ public class EndlessTerrain : MonoBehaviour
         LODMesh collisionLODMesh;
         bool mapDataReceived;
 
+        // Creating Food spawners for the world
+        private SpawnFood foodSpawner;
+
         int previousLODIndex = -1;
+
+        private void Awake() {
+            foodSpawner = FindObjectOfType<SpawnFood>();
+            
+        }
+
+        private void Start() {
+            foodSpawner.SpawnTheFood();
+        }
 
         public TerrainChunk(Vector2 coord, int size, LODInfo[] detailLevels, Transform parent, Material material)
         {
+            
             this.detailLevels = detailLevels;
 
             position = coord * size;
             bounds = new Bounds(position, Vector2.one * size);
             Vector3 positionV3 = new Vector3(position.x, 0, position.y);
+            
 
             meshObject = new GameObject("Terrain Chunk");
             meshRenderer = meshObject.AddComponent<MeshRenderer>();
@@ -120,6 +134,7 @@ public class EndlessTerrain : MonoBehaviour
             meshObject.transform.position = positionV3 * scale;
             meshObject.transform.parent = parent;
             meshObject.transform.localScale = Vector3.one * scale;
+            
             SetVisible(false);
 
             lodMeshes = new LODMesh[detailLevels.Length];
@@ -159,6 +174,7 @@ public class EndlessTerrain : MonoBehaviour
 
         public void UpdateTerrainChunk()
         {
+            
             if (mapDataReceived)
             {
                 float viewerDistFromEdge = Mathf.Sqrt(bounds.SqrDistance(viewerPos));
